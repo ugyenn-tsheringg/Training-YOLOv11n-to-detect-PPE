@@ -22,7 +22,7 @@ This notebook utilizes the **YOLOv11n (Nano)** variant, chosen for its balance b
     * 9: Vehicle
 * **Preprocessing:** The dataset was split into training (80%), validation (15%), and test (5%) sets.
 
-(https://github.com/ugyenn-tsheringg/Training-YOLOv11n-to-detect-PPE/blob/main/results/__results___41_1.png)
+![Processing](https://github.com/ugyenn-tsheringg/Training-YOLOv11n-to-detect-PPE/blob/main/results/__results___41_1.png?raw=true)
 
 * **Augmentation:** Horizontal flipping was applied to images containing 'Safety Cone' and 'Vehicle' classes to address lower representation.
 * **Structure:** The dataset follows the standard YOLO format:
@@ -96,7 +96,7 @@ These metrics indicate a good performance in detecting PPE on construction sites
     ```
 
 ## Yolo Models Comparisons
-(https://github.com/ugyenn-tsheringg/Training-YOLOv11n-to-detect-PPE/blob/main/results/Comparison.png)
+![Comparison Image](https://github.com/ugyenn-tsheringg/Training-YOLOv11n-to-detect-PPE/blob/main/results/Comparison.png?raw=true)
 
 ## Future Improvements
 
