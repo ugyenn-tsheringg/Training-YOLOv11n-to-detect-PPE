@@ -2,6 +2,8 @@
 
 ## 📌 Overview
 
+![PPE Detection](https://github.com/ugyenn-tsheringg/Training-YOLOv11n-to-detect-PPE/blob/main/assests/PPE%20Labels.png)
+
 This project focuses on training a **YOLOv11 model** to detect **Personal Protective Equipment (PPE)** in construction site images. The goal is to identify items like hard hats, masks, and safety vests, as well as their absence, alongside persons, machinery, and vehicles in complex construction environments.
 
 This notebook utilizes the **YOLOv11n (Nano)** variant, chosen for its balance between speed and accuracy, especially considering potential performance constraints in the training environment. The training process involved careful dataset preprocessing, hyperparameter tuning, and data augmentation to improve detection performance.
