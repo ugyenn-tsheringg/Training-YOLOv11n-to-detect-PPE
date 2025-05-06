@@ -127,8 +127,9 @@ train_metrics = {
 }
 ```
 
-**Insert Image Here: Confusion Matrix**
-*Caption: Confusion matrix showing detection performance across all classes.*
+<div align="center">
+<img src='assests/confusion_matrix.png'>
+</div>
 
 ## ⚙️ Setup & Installation
 
