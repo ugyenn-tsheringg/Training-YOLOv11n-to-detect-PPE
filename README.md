@@ -1,6 +1,6 @@
 # YOLOv11 Training for PPE Detection on Construction Sites
 <div align="center">
-<img src='assests/groundtruth_vs_predicted.jpg'>
+<img src='assests/models_prediction.jpg'>
 </div>
 
 ## 📌 Overview
