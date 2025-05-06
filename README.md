@@ -1,4 +1,7 @@
 # YOLOv11 Training for PPE Detection on Construction Sites
+<div align="center">
+<img src='assets/PPE Labels.png'>
+</div>
 
 ## 📌 Overview
 
