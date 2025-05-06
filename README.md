@@ -72,7 +72,7 @@ To address class imbalance, particularly for underrepresented classes like **Saf
 
 ### Training Configuration
 The training was conducted in a Kaggle environment with a **Tesla T4 GPU**. Key parameters include:
-- **Epochs**: 30 (3 in debug mode)
+- **Epochs**: 100 (3 in debug mode)
 - **Batch Size**: 12 (4 in debug mode)
 - **Image Size**: 640x640
 - **Device**: CUDA (GPU)
@@ -93,7 +93,7 @@ model = YOLO('yolo11n.pt')
 # Train the model
 results = model.train(
     data='path/to/your/data.yaml',
-    epochs=30,
+    epochs=100,
     imgsz=640,
     batch=12,
     device='cuda',
@@ -104,9 +104,6 @@ results = model.train(
     show_boxes=False
 )
 ```
-
-**Insert Image Here: Training Loss Curves**
-*Caption: Plot of box loss, classification loss, and DFL loss over 30 epochs.*
 
 ## 📈 Results
 
@@ -122,11 +119,11 @@ These results demonstrate strong detection capabilities for PPE items in constru
 train_metrics = {
     "train_id": f"train_{pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')}",
     "model": "yolo11n.pt",
-    "mAP50": 0.70718,
-    "mAP50-95": 0.467217,
-    "Precision": 0.835532,
-    "Recall": 0.628582,
-    "train_time": 1211.92
+    "mAP50": 0.763,
+    "mAP50-95": 0.524,
+    "Precision": 0.867,
+    "Recall": 0.687,
+    "train_time": 3815.760
 }
 ```
 
