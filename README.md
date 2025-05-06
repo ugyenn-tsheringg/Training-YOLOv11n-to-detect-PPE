@@ -9,8 +9,9 @@ This project focuses on training a **YOLOv11 model** to detect **Personal Protec
 
 The training process involved meticulous dataset preprocessing, hyperparameter tuning, and data augmentation to enhance detection performance. This README provides a detailed guide to the project setup, dataset preparation, model training, evaluation, and future improvements.
 
-**Insert Image Here: Example PPE Detection Output**
-*Caption: Sample output of the YOLOv11n model detecting PPE items on a construction site.*
+<div align="center">
+<img src='assests/training_loss_curve.png'>
+</div>
 
 ## 📊 Dataset
 
