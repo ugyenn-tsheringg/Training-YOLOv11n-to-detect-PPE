@@ -209,9 +209,6 @@ with open('/kaggle/working/metadata.json', 'w') as f:
 
 ## 📊 Model Comparison
 
-**Insert Image Here: YOLO Model Comparison**
-*Caption: Comparison of YOLOv11 variants (e.g., Nano, Small, Medium) in terms of mAP and inference speed.*
-
 The project tested different YOLOv11 variants, with the following recorded results:
 | Train ID              | Model      | mAP50  | mAP50-95 | Precision | Recall | Train Time (s) | Epochs | Batch | Image Size |
 |-----------------------|------------|--------|----------|-----------|--------|----------------|--------|-------|------------|
@@ -219,7 +216,9 @@ The project tested different YOLOv11 variants, with the following recorded resul
 | train_20250506_081916 | yolo11n.pt | 0.711 | 0.468 | 0.853  | 0.629 |  1151.180        | 30     | 12    | 640        |
 | train_20250212_204638 | yolo11n.pt | 0.200 | 0.094 | 0.309  | 0.264 | 102.070         | 3      | 4     | 640        |
 
-The YOLOv11n model outperformed the YOLOv11m in this context due to longer training and a larger batch size, highlighting the importance of training duration and data volume.
+<div align="center">
+<img src='results/Comparison.png'>
+</div>
 
 ## 🔮 Future Improvements
 
