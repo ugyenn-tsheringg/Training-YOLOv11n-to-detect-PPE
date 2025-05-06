@@ -9,18 +9,6 @@ The training process involved meticulous dataset preprocessing, hyperparameter t
 **Insert Image Here: Example PPE Detection Output**
 *Caption: Sample output of the YOLOv11n model detecting PPE items on a construction site.*
 
-## 📚 Table of Contents
-
-- [Dataset](#dataset)
-- [Model & Training](#model--training)
-- [Results](#results)
-- [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [Model Comparison](#model-comparison)
-- [Future Improvements](#future-improvements)
-- [References](#references)
-- [Dataset Citation](#dataset-citation)
-
 ## 📊 Dataset
 
 ### Source
