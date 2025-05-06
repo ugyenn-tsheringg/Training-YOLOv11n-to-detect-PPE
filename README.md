@@ -215,11 +215,9 @@ with open('/kaggle/working/metadata.json', 'w') as f:
 The project tested different YOLOv11 variants, with the following recorded results:
 | Train ID              | Model      | mAP50  | mAP50-95 | Precision | Recall | Train Time (s) | Epochs | Batch | Image Size |
 |-----------------------|------------|--------|----------|-----------|--------|----------------|--------|-------|------------|
+| train_20250506_115707 | yolo11n.pt | 0.763 | 0.524 | 0.867  | 0.687 | 3815.760         | 100      | 12     | 640        |
 | train_20250506_081916 | yolo11n.pt | 0.711 | 0.468 | 0.853  | 0.629 |  1151.180        | 30     | 12    | 640        |
-| train_20250212_204638 | yolo11n.pt | 0.200306 | 0.094233 | 0.308526  | 0.264851 | 102.07         | 3      | 4     | 640        |
-| train_20250212_204638 | yolo11n.pt | 0.200306 | 0.094233 | 0.308526  | 0.264851 | 102.07         | 3      | 4     | 640        |
-
-
+| train_20250212_204638 | yolo11n.pt | 0.200 | 0.094 | 0.309  | 0.264 | 102.070         | 3      | 4     | 640        |
 
 The YOLOv11n model outperformed the YOLOv11m in this context due to longer training and a larger batch size, highlighting the importance of training duration and data volume.
 
