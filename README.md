@@ -128,7 +128,7 @@ train_metrics = {
 ```
 
 <div align="center">
-<img src='assests/confusion_matrix.png'>
+<img src='results/confusion_matrix.png'>
 </div>
 
 ## ⚙️ Setup & Installation
