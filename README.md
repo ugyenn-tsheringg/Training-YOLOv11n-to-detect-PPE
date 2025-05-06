@@ -56,9 +56,9 @@ To address class imbalance, particularly for underrepresented classes like **Saf
   - **ToGray** (p=0.01)
   - **CLAHE** (p=0.01, clip_limit=(1.0, 4.0))
 
-**Insert Image Here: Dataset Distribution**
-*Caption: Visualization of class distribution across the dataset, highlighting augmentation effects.*
-
+<div align="center">
+  <img src="results/__results___19_0.png">
+</div>
 ## 🛠️ Model & Training
 
 ### Model
