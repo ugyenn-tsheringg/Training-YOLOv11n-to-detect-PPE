@@ -111,10 +111,10 @@ results = model.train(
 ## 📈 Results
 
 The trained YOLOv11n model achieved the following performance metrics on the validation set:
-- **mAP50**: **70.72%**
-- **mAP50-95**: **46.72%**
-- **Precision**: 83.55%
-- **Recall**: 62.86%
+- **mAP50**: **76.3%**
+- **mAP50-95**: **52.4%**
+- **Precision**: 86.7%
+- **Recall**: 68.7%
 
 These results demonstrate strong detection capabilities for PPE items in construction environments. The training metrics were saved to a CSV file for further analysis:
 
