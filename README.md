@@ -57,7 +57,7 @@ To address class imbalance, particularly for underrepresented classes like **Saf
   - **CLAHE** (p=0.01, clip_limit=(1.0, 4.0))
 
 <div align="center">
-  <img src="results/__results___19_0.png">
+  <img src="results/__results___41_1.png">
 </div>
 ## 🛠️ Model & Training
 
